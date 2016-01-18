@@ -27,7 +27,7 @@ from boto.s3.connection import S3Connection
 from boto import beanstalk 
 from boto.beanstalk.layer1 import Layer1
 
-print ('Assuming role of MaverickJenkins to access AWS on a different account')
+print ('Assuming role to access AWS on a different account')
 ROLE_ARN = os.environ['ROLE_ARN']
 ROLE_SESS_NAME = os.environ['ROLE_SESS_NAME']
 BUCKET_PARAM = os.environ['BUCKET_NAME']
